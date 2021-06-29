@@ -1,0 +1,83 @@
+.btn_l {
+    padding: 6px 10px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    color: #fff;    
+    cursor: pointer;
+    background: linear-gradient(90deg, #4DD4F7 0%, #9090FB 36.46%, #FF6B81 71.35%, #FBDF63 100%);
+}
+
+.btn_l:hover {
+    background: linear-gradient(90deg, #6b6b6b 0%, #303030 36.46%, #6b6b6b 71.35%, #303030 100%);
+    border-radius: 4px;
+}
+
+.plus {
+    padding: 1px 6px;
+    margin-right: 8px;
+    border-radius: 4px;
+    background: #00000041;
+}
+
+.btn_d {
+    background: #222;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.btn_d:hover {
+    background: #fff;
+    color: black;
+    transition: 0.3s ease;
+}
+
+.inp input[type="file"] {
+    position: absolute;
+    top: -1000px
+}
+
+.inp {
+    margin: 20px 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    border: 0px;
+    border-radius: 5px;
+    padding: 15px 20px;
+    background: linear-gradient(90deg, #4DD4F7 0%, #9090FB 36.46%, #FF6B81 71.35%, #FBDF63 100%);
+    display: inline-block;
+}
+
+.inp span {
+    margin-left: 20px;
+}
+
+.inp:hover {
+    background: linear-gradient(90deg, #6b6b6b 0%, #303030 36.46%, #6b6b6b 71.35%, #303030 100%);
+}
+
+.inp_e {
+    align-self: flex-start;
+    width: 270px;
+}
+
+.inp_e span {
+    margin-left: 50px;
+}
+
+@media (max-width:960px) {
+    .inp {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .inp_e span{
+        margin-left: 0;
+    }
+}

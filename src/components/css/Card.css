@@ -1,0 +1,84 @@
+.c_image {
+    width: 100%;
+    /* height: 263px; */
+    transition: ease 1s;
+    /* background: red; */
+    padding: 10px 0;
+    cursor: pointer;
+}
+ 
+.c_image img {
+    width: 100%;
+    /* max-height: 550px; */
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.p_img {
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+    padding: 1px;
+    background: linear-gradient(90deg, #4DD4F7 0%, #9090FB 36.46%, #FF6B81 71.35%, #FBDF63 100%);
+    border-radius: 50%;
+    margin-right: 10px;
+    float: left;
+}
+
+.p_img img {
+    width: 100%;
+    height: 100%;
+    margin-right: 10px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.c_profile {
+    /* background: red; */
+    margin: 0px 10px;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.c_action {
+    /* justify-self: flex-end; */
+    float: right;
+}
+
+.c_action img {
+    width: 20px;
+    margin-left: 5px;
+    opacity: 0.5;
+    
+}
+
+.c_action img:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.c_like {
+    margin: 0 10px;
+    float: right;
+    color: rgb(133, 133, 133);
+}
+
+@media (max-width:860px) {
+    .c_image {
+        width: 250px;
+        /* height: 188px; */
+        transition: ease 1s;
+    }
+}
+
+@media (max-width:617px) {
+    .c_image {
+        width: 100%;
+        /* height: 263px; */
+        transition: ease 1s;
+    }
+
+    
+}

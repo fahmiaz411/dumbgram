@@ -1,0 +1,99 @@
+.content {
+    display: flex;
+    height: 100%;
+}
+
+.left {
+    flex: 1.5;
+    transition: ease 1s;
+    /* background-color: chocolate; */
+}
+
+.right {
+    /* background-color: cyan; */
+    transition: ease 1s;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.right div {
+    margin: 0 5px;
+}
+
+.notif {
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+    /* flex: 1; */
+}
+
+.notif:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.message {
+    /* flex: 1; */
+    display: flex;
+    align-items: center;
+    opacity: 0.5;
+}
+
+.message:hover {
+    opacity: 1;
+}
+
+.buttons {
+    /* background-color: crimson; */
+    /* flex: 2; */
+}
+
+.notif_pic {
+    width: 30px;
+}
+
+.message_pic {
+    width: 30px;
+}
+
+@media (max-width:960px){
+
+
+    .left {
+        margin-left: 40px;
+        transition: ease 1s;
+    }
+
+    .right {
+        margin-right: 30px;
+        transition: ease 1s;
+
+    }
+
+    .notif{
+        flex: none;
+    }
+
+    .message{
+        flex: none;
+    }
+
+    .buttons {
+        display: none;
+    }
+}
+
+@media (max-width:600px) {
+    .left {
+        margin-left: 0;
+        transition: ease 1s;
+    }
+
+    .right {
+        flex: none;
+        margin-right: 0;
+        transition: ease 1s;
+    }
+}

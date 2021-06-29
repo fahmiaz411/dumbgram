@@ -1,0 +1,15 @@
+.m_body {
+    border-radius: 10px;
+}
+
+.modal-content {
+    background-color: #222;
+    top: 0;
+}
+
+.m_title {
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 10px;
+}

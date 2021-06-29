@@ -1,0 +1,40 @@
+.pic {
+    width: 30px;
+    margin: 15px;
+}
+
+.li {
+    display: flex;
+    margin: 30px;
+    height: 70px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.dropdown-menu {    
+    margin-top: 320px;
+    background: rgb(37, 37, 37);
+    border-radius: 7px;
+    width: 17vw;
+    text-align: left;
+}
+
+.dropdown-link {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    text-align: left;
+    padding: 0 ;
+    color: #fff
+}
+
+.comment_head {
+    color: #fff;
+    margin-left: 60px;
+}
+
+.comment {
+    color: rgb(148, 148, 148);
+}
